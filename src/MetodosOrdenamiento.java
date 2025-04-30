@@ -1,7 +1,8 @@
+
 import java.util.Arrays;
 
 public class MetodosOrdenamiento {
-
+       
     // Método de burbuja tradicional con errores
     // Error encontrado: return devuelve arreglo vacio la solucion sera modificar el return para devolver la variable arreglo
     public int[] burbujaTradicional(int[] arregloOriginal) {
@@ -183,5 +184,6 @@ public class MetodosOrdenamiento {
         }
         return arreglo;
     }
+    
 
 }
