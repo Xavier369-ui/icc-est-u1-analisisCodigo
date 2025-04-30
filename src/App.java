@@ -3,8 +3,8 @@ public class App {
 
         MetodosOrdenamiento ordenador = new MetodosOrdenamiento();
         int[] arregloBurbuja = { 34, 2, 10, 6, 7, 5, 1, 15 };
-        int[] arregloSeleccion = { 34, 2, 10, 6, 7, 5, 1, 15 };
-        int[] arregloInsercion = { 34, 2, 10, 6, 7, 5, 1, 15 };
+        //int[] arregloSeleccion = { 34, 2, 10, 6, 7, 5, 1, 15 };
+        //int[] arregloInsercion = { 34, 2, 10, 6, 7, 5, 1, 15 };
 
         // Insctucciones:
         // Todas las llamadas a los metodos deberan estar descomentadas y se debera
@@ -23,18 +23,18 @@ public class App {
                         java.util.Arrays.toString(arregloBurbujaOrdenado1));
 
         // // Metodo burbujaTradicionalSegundo
-        // int[] arregloBurbujaOrdenado2 =
-        // ordenador.burbujaTradicionalSegundo(arregloBurbuja);
-        // System.out.println(
-        // "Resultado burbuja tradicional Metodo 2: " +
-        // java.util.Arrays.toString(arregloBurbujaOrdenado2));
+        int[] arregloBurbujaOrdenado2 =
+        ordenador.burbujaTradicionalSegundo(arregloBurbuja);
+        System.out.println(
+        "Resultado burbuja tradicional Metodo 2: " +
+        java.util.Arrays.toString(arregloBurbujaOrdenado2));
 
         // // // Metodo burbujaTradicionalTercero
-        // int[] arregloBurbujaOrdenado3 =
-        // ordenador.burbujaTradicionalTercero(arregloBurbuja);
-        // System.out.println(
-        // "Resultado burbuja tradicional Metodo 3: " +
-        // java.util.Arrays.toString(arregloBurbujaOrdenado3));
+         int[] arregloBurbujaOrdenado3 =
+        ordenador.burbujaTradicionalTercero(arregloBurbuja);
+        System.out.println(
+        "Resultado burbuja tradicional Metodo 3: " +
+        java.util.Arrays.toString(arregloBurbujaOrdenado3));
 
         // Metodo seleccionPrimero
         // int[] arregloSeleccionOrdenado1 =
