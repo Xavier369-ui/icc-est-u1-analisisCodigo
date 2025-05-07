@@ -15,7 +15,7 @@ class MetodoOrdenamiento:
         arreglo = array.copy()
         n = len(arreglo)
         for i in range(n):
-            for j in range(j+1,n-1-i):
+            for j in range(0,n-1-i):
                 if arreglo[j] > arreglo[j+1]:
                     arreglo[j] , arreglo[j+1] = arreglo[j+1],arreglo[j]
         return arreglo
